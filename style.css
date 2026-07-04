@@ -10,7 +10,7 @@ body {
 }
 
 body {
-    background-color: rgb(245, 186, 165);
+    background-color: rgb(237, 214, 205);
 }
 
 header {
@@ -26,6 +26,15 @@ nav {
     align-items: center;
 }
 
+#logo h2 {
+    transition: all 0.2s ease;
+}
+
+#logo h2:hover {
+    transform: scale(1.2);
+    color: rgb(203, 131, 201);
+}
+
 .tab {
     align-items: center;
     min-height: 10vh;
@@ -36,7 +45,15 @@ nav {
     list-style: none;
 }
 
+
 ul li a {
+    padding: 5px;
     text-decoration: none;
     color: antiquewhite;
+    transition: all 0.2s ease;
+}
+
+ul li a:hover {
+    transform: scale(1.5);
+    color: rgb(203, 131, 201);
 }
